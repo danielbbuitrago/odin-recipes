@@ -8,14 +8,14 @@ body {
   background-color: bisque;
 }
 
-#page1 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.page1,
+.page2,
+.page3 {
+  margin: 10px;
 }
 
-#index-header {
+
+.index-header {
   background-color: rgb(98, 27, 10);
   border-radius: 30px;
   text-align: center;
@@ -23,19 +23,31 @@ body {
   width: 300px;
   height: 50px;
   line-height: 47px;
-  margin-bottom: 0px;
+  margin: 10px 0 10px 0;
 }
 
-.index-links {
+.nav-links {
   display: flex;
+  justify-content: center;
+}
+
+.index-link {
+  font-size: 20px;
+  margin: 0 10px 0 10px;
 }
 
 .navbar li {
   display: inline;
 }
 
-#recipe-links {
+.recipe-links {
   font-size: 25px;
   font-weight: bold;
   text-align: center;
+  border: 3px dotted cornflowerblue;
+}
+
+.link {
+  margin: 5px 15px 5px 15px;
+  padding: 5px;
 }
